@@ -107,7 +107,11 @@
     padding-right:10% ;
     padding-top: 10%;
   }
-
+  #about>h1{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 2%;
+  }
 
   /* skills */
   #skils_img>img{
@@ -123,4 +127,19 @@
     grid-row-gap: 10%;
     grid-column-gap: 10%;
   }
+  #skills>h1{
+    padding-top: 2%;
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 2%;
+  }
  
+  /* Projects */
+  #Projects_header>h1{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 2%;
+  }
+
+
+  /* Project cards */
