@@ -143,3 +143,17 @@
 
 
   /* Project cards */
+  .project_card{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    margin: 10px;
+    padding: 4px;
+  }
+  .project_card>img{
+    width: 70%;
+    height: min-content;
+  }
+  .project_desc{
+    margin-top: 5%;
+  }
