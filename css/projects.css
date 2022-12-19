@@ -1,0 +1,18 @@
+.project_card{
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    border: 2px solid;
+    border-radius: 1%;
+    margin: 10px;
+    padding: 14px;
+  }
+  .project_card>img{
+    width: 70%;
+    margin-left: 20%;
+  }
+  .project_desc{
+    margin-top: 5%;
+  }
+
+
