@@ -42,6 +42,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -2985,13 +2986,13 @@ input[type="button"].btn-block {
 }
 
 .collapse:not(.show) {
-  display: none;
-}
+ display: none; 
+ }
 
 .collapsing {
   position: relative;
   height: 0;
-  overflow: hidden;
+  overflow: hidden; 
   transition: height 0.35s ease;
 }
 
@@ -4099,7 +4100,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  position:sticky;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -9762,12 +9763,12 @@ h6,
 }
 
 .scroll-to-bottom {
-  position: fixed;
-  width: 20px;
+  position: sticky;
+  /* width: 20px;
   left: calc(50% - 10px);
   bottom: 30px;
   z-index: 11;
-  animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate; */
 }
 
 .back-to-top {
@@ -9778,7 +9779,7 @@ h6,
   right: 30px;
   bottom: 30px;
   z-index: 11;
-  animation: action 1s infinite alternate;
+  /* animation: action 1s infinite alternate; */
 }
 
 @keyframes action {
