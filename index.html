@@ -40,19 +40,19 @@
         </button>
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#home" class="nav-item nav-link home active">Home</a>
+                <a href="#about" class="nav-item nav-link about">About</a>
                 <!-- <a href="#qualification" class="nav-item nav-link">Quality</a> -->
-                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#skill" class="nav-item nav-link skills">Skill</a>
                 <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
-                <a href="#projects" class="nav-item nav-link">Projects</a>
+                <a href="#projects" class="nav-item nav-link projects">Projects</a>
                 <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
                 <!-- <a href="#blog" class="nav-item nav-link">Blog</a> -->
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <a href="#contact" class="nav-item nav-link contact">Contact</a>
 
             </div>
             <a href="https://drive.google.com/file/d/1KSxkzOB2KwObJg6qQzC10CeSra-Tc8aa/view?usp=share_link"
-                class="btn btn-outline-primary d-none d-lg-block" onclick="window.open()" target="_blank">Resume</a>
+                class="btn btn-outline-primary d-none d-lg-block nav-link resume" onclick="window.open()" target="_blank" >Resume</a>
         </div>
     </nav>
     </div>
@@ -117,17 +117,17 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="" id="home-img">
                 </div>
                 <div class="col-lg-7">
-                    <h3 class="mb-4">Java Backend Developer</h3>
+                    <h3 class="mb-4" id="user-detail-intro">Java Backend Developer</h3>
                     <p>I am a Java Backend Developer.Strong in design and functionality with intuitive problem-solving
                         skills. Proficient in JAVA, SQL, HTML, CSS, and JAVASCRIPT. Passionate about implementing and
                         launching new projects. Looking to start my career as an entry-level software engineer with a
                         reputed firm driven by technology.</p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2">
-                            <h6>Name: <span class="text-secondary">Karri Naga Durga Amrutha</span></h6>
+                            <h6 id="user-detail-name">Name: <span class="text-secondary">Karri Naga Durga Amrutha</span></h6>
                         </div>
                         <div class="col-sm-6 py-2">
                             <h6>Education: <span class="text-secondary">Diploma in Electrical & Electronics
@@ -157,69 +157,69 @@
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Projects</h1>
             </div>
-            <div id="project_cards">
-                <div class="project_card">
+            <div>
+                <div class="project-card">
                     <div class="image">
                     <img src="img/uboric.png" alt="Uboric">
                     </div>
                     <div class="project_desc">
-                        <h3>Uboric Clone</h3>
-                        <p>Here at ‘Uboric’.com, we realize that style and prosperity begin with the correct shoes. We
+                        <h3 class="project-title">Uboric Clone</h3>
+                        <p class="project-description">Here at ‘Uboric’.com, we realize that style and prosperity begin with the correct shoes. We
                             likewise understand that effectively finding the size and style to meet your requirements is
                             vital to your web based shopping knowledge. Since beginning our web based business website ,
                             we’ve been endeavoring to present to you that perfect shopping experience.</p>
-                            <h3>Tech stack</h3>
+                            <h3 class="project-tech-stack">Tech stack</h3>
                         <ul>
                             <li>Html</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
                         </ul>
                         <div class="p_buttons">
-                            <a href="https://github.com/Amrutha010/uboric-clone"><button>GitHub Repository</button></a>
-                            <a href=""><button>Live Site</button></a>
+                            <a href="https://github.com/Amrutha010/uboric-clone"><button class="project-github-link">GitHub Repository</button></a>
+                            <a href=""><button class="project-deployed-link">Live Site</button></a>
                         </div>
                     </div>
                 </div>
                 <br>
-                <div id="project_cards">
-                    <div class="project_card">
+                <div >
+                    <div class="project-card">
                         <div class="image">
                         <img src="img/Screenshot (487).png" alt="Hubspot">
                         </div>
                         <div class="project_desc">
-                            <h3>Hubspot Clone</h3>
-                            <p>HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. HubSpot was founded by Brian Halligan and Dharmesh Shah in 2006</p>
-                                <h3>Tech stack</h3>
+                            <h3 class="project-title">Hubspot Clone</h3>
+                            <p class="project-description">HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. HubSpot was founded by Brian Halligan and Dharmesh Shah in 2006</p>
+                                <h3 id="project-tech-stack">Tech stack</h3>
                             <ul>
                                 <li>Html</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                             </ul>
                             <div class="p_buttons">
-                                <a href="https://github.com/Amrutha010/uboric-clone"><button>GitHub Repository</button></a>
-                                <a href=""><button>Live Site</button></a>
+                                <a href="https://github.com/Amrutha010/uboric-clone"><button class="project-github-link">GitHub Repository</button></a>
+                                <a href=""><button class="project-deployed-link">Live Site</button></a>
                             </div>
                         </div>
                     </div>
                     <br>
-                    <div id="project_cards">
-                        <div class="project_card">
+                    <div >
+                        <div class="project-card">
                             <div class="image">
                             <img src="img/dot&key home.png" alt="Hubspot">
                             </div>
                             <div class="project_desc">
-                                <h3>Dot&Key Clone</h3>
-                                <p>At Dot & Key, we strive to find the missing "dots" in your skincare regime and are obsessed with providing solutions or "keys" to these.
+                                <h3 class="project-title">Dot&Key Clone</h3>
+                                <p class="project-description">At Dot & Key, we strive to find the missing "dots" in your skincare regime and are obsessed with providing solutions or "keys" to these.
                                     Our revolutionary products are crafted with utmost care and love for you. By blending luxurious botanicals with high performance actives, we bring to you clean formulations that are absolutely safe, delightfully gentle and unquestionably effective.</p>
-                                    <h3>Tech stack</h3>
+                                    <h3 class="project-tech-stack">Tech stack</h3>
                                 <ul>
                                     <li>Html</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
                                 </ul>
                                 <div class="p_buttons">
-                                    <a href="https://github.com/Amrutha010/uboric-clone"><button>GitHub Repository</button></a>
-                                    <a href=""><button>Live Site</button></a>
+                                    <a href="https://github.com/Amrutha010/uboric-clone"><button class="project-github-link">GitHub Repository</button></a>
+                                    <a href=""><button class="project-deployed-link">Live Site</button></a>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +228,7 @@
     </div>
 
     <!-- Github stats-->
-    <div class="container-fluid py-5" id="projects">
+    <div class="container-fluid py-5" >
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Statistics</h1>
@@ -400,46 +400,10 @@
     <!-- Contact Start -->
      <div class="container-fluid py-5" id="contact">
         <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+            <h1 id="contact-github"><a href="https://github.com/Amrutha010">Github</a></h1>
+            <h1 id="contact-linkedin"><a href="https://github.com/Amrutha010">Linkedin</a></h1>
+            <h1 id="contact-phone"><a href="https://github.com/Amrutha010">📞9133691828</a></h1>
+            <h1 id="contact-email"><a href="karrinagadurgaamrutha040@gmail.com">Email-karrinagadurgaamrutha040@gmail.com</a></h1>
         </div>
     </div> 
     <!-- Contact End -->

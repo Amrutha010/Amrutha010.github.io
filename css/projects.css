@@ -10,17 +10,17 @@
     padding: 10%;
 }
 
-.project_card{
+.project-card{
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
     border-radius: 1rem;
 }
-.project_card>.image{
+.project-card>.image{
     width: 50%;
 }
 
-.project_card>.project_desc{
+.project-card>.project_desc{
     width: 50%;
     padding-bottom: 5%;
 }
