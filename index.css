@@ -751,7 +751,33 @@ color: rgb(63, 160, 63);
 }
 
 
-#resume-button-2{
-  color: #7169C9;
-  padding: 12px 40px;
+#rsd{
+color: black;
+padding: 12px 40px;
+background-color: #7169C9;
+
+}
+
+
+
+#nav-menu #resume-button-1 button{
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  background-color:#7169C9;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  padding: 2px;
+}
+
+
+#home #resume-button-2 button{
+  height: 100%;
+  width: 20%;
+  font-size: 20px;
+  background-color: #7169C9;
+  border: none;
+  border-radius: 10px;
+  color: white;
 }

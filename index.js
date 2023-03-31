@@ -105,6 +105,9 @@ var typing=new Typed(".text", {
 
 
 document.querySelector("#resume-button-2").addEventListener("click",()=>{
-    window.location.href="https://drive.google.com/file/d/1KSxkzOB2KwObJg6qQzC10CeSra-Tc8aa/view?usp=share_link";
+   window.open("https://drive.google.com/file/d/1KSxkzOB2KwObJg6qQzC10CeSra-Tc8aa/view?usp=share_link","_blank") ;
+})
+
+document.querySelector("#resume-button-1").addEventListener("click",()=>{
    window.open("https://drive.google.com/file/d/1KSxkzOB2KwObJg6qQzC10CeSra-Tc8aa/view?usp=share_link","_blank") ;
 })
