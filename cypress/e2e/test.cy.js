@@ -50,6 +50,7 @@ describe("Test", function () {
 
       it(`Check for basic components`, () => {
         cy.get('[id="nav-menu"]');
+        cy.get('[id="home"]');
         cy.get('[id="about"]');
         cy.get('[id="skills"]');
         cy.get('[id="projects"]');
