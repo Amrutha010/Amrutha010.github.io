@@ -103,7 +103,7 @@ describe("Test", function () {
         cy.then(() => {
           acc_score += 1;
         });
-
+        cy.visit(url);
         cy.isInViewport("#nav-menu");
         cy.get(".nav-link.home").click();
         cy.isScrolledTo("#home");
