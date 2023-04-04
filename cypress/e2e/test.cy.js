@@ -508,4 +508,4 @@ describe("Test", function () {
 
 
 
-cy.get('.nav_link.nav-link.home').scrollIntoView().click();
+cy.get('.nav_link.home').click({force: true});
