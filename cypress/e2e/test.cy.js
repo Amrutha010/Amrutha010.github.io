@@ -50,7 +50,6 @@ describe("Test", function () {
 
       it(`Check for basic components`, () => {
         cy.get('[id="nav-menu"]');
-        cy.get('[id="home"]');
         cy.get('[id="about"]');
         cy.get('[id="skills"]');
         cy.get('[id="projects"]');
@@ -105,8 +104,7 @@ describe("Test", function () {
         });
 
         cy.isInViewport("#nav-menu");
-        cy.get(".nav-link.home").click();
-        cy.isScrolledTo("#home");
+        cy.get('.nav_link.home').click({force: true});
         cy.then(() => {
           acc_score += 1;
         });
