@@ -56,7 +56,7 @@ sr.reveal('.home__social-icon',{ interval: 150});
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 150}); 
 
 /*SCROLL HOME*/
-sr.reveal( ".home-title", {delay: 150} );
+sr.reveal( ".home-title", {} );
 sr.reveal( ".button", { delay: 150 } );
 sr.reveal( ".home-img", { delay: 150 } );
 sr.reveal( ".home-social-icon", { interval: 150 } );
