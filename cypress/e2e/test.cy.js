@@ -505,3 +505,7 @@ describe("Test", function () {
     }
   }
 });
+
+
+
+cy.get('.nav_link.nav-link.home').scrollIntoView().click();
