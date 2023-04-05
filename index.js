@@ -21,26 +21,6 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
-// const sections = document.querySelectorAll('section[id]')
-
-// function scrollActive(){
-//     const scrollY = window.pageYOffset
-
-//     sections.forEach(current =>{
-//         const sectionHeight = current.offsetHeight
-//         const sectionTop = current.offsetTop - 50;
-//         sectionId = current.getAttribute('id')
-
-//         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-//             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
-//         }else{
-//             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
-//         }
-//     })
-// }
-// window.addEventListener('scroll', scrollActive)
-
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
@@ -56,10 +36,10 @@ sr.reveal('.home__social-icon',{ interval: 150});
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 150}); 
 
 /*SCROLL HOME*/
-// sr.reveal( ".home-title", {} );
-// sr.reveal( ".button", { delay: 150 } );
-// sr.reveal( ".home-img", { delay: 150 } );
-// sr.reveal( ".home-social-icon", { interval: 150 } );
+sr.reveal( ".home-title", {} );
+sr.reveal( ".button", {} );
+sr.reveal( ".home-img", { delay: 150 } );
+sr.reveal( ".home-social-icon", { interval: 150 } );
 
 /*SCROLL ABOUT*/
 sr.reveal( ".about-img", {} );
@@ -74,16 +54,34 @@ sr.reveal( ".mskill-text", { delay: 150 } );
 sr.reveal( ".skills-subtitle", {} );
 sr.reveal( ".skills-text", {} );
 sr.reveal( ".skills-data", { interval: 150 } );
+// sr.reveal(".skills-img", { delay: 600 });
+
+/*SCROLL projects*/
+// sr.reveal( ".project-img", { interval: 20 } );
+// sr.reveal( ".mskill-text", { delay: 20 } );
+
+// SCROLL CONTACT
+
 
 sr.reveal(".contact-input", { interval: 150 });
 
+// document.querySelector("#resume-link-1").addEventListener("click",function(){
+//     window.open("./Sarvesh-Gupta-Resume.pdf","_blank");
+// });
+// document.querySelector("#resume-button-2").addEventListener("click",function(){
+//     window.open("./Sarvesh-Gupta-Resume.pdf","_blank");
+// });
+
+// let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
+//     window.location.assign("https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing")
+//   })
+
 var typing=new Typed(".text", {
-    strings: ["", "FULL-STACK", "WEB", "DEVELOPER"],
+    strings: ["Full stack Web Developer","Java Backend Developer"],
     typeSpeed: 100,
     backSpeed: 40  ,
     loop: true,
 });
-
 
 document.querySelector("#resume-button-2").addEventListener("click",()=>{
    window.open("https://drive.google.com/file/d/1KSxkzOB2KwObJg6qQzC10CeSra-Tc8aa/view?usp=share_link","_blank") ;
